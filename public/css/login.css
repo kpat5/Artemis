@@ -1,0 +1,54 @@
+form {
+  width: 60%;
+  margin: 20px auto;
+}
+.loginForm {
+  width: 70%;
+  margin: auto;
+  font-family: "Roboto";
+  text-align: center;
+}
+input {
+  display: block;
+  padding: 8px 16px;
+  /* font-size: 2em; */
+  margin: 10px auto;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none !important;
+}
+.valid {
+  border-color: green;
+}
+.invalid {
+  border-color: red;
+}
+h1 {
+  color: white;
+}
+
+input + p {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0 10px;
+  text-align: center;
+  color: orange;
+  opacity: 0;
+  height: 0;
+}
+input.invalid + p {
+  opacity: 1;
+  height: auto;
+  margin-bottom: 20px;
+}
+form button {
+  display: flex;
+}
+input:nth-last-child(1) {
+  padding: 10px;
+  margin: 0;
+  color: white;
+  background-color: #2c2c2c;
+}

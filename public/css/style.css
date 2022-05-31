@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: #b9cdda;
+  margin: 0%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.artemis {
+  font-family: "Mrs Saint Delafield";
+  font-size: 70px;
+}
+
+.dropdownlist {
+  font-family: "Oswald";
+  list-style-type: none;
+  background-color: white;
+  display: inline-block;
+  padding: 30px;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 85px;
+  right: 0;
+  z-index: 0;
+  display: none;
+}
+
+.menu-visible {
+  display: block;
+}
+* {
+  margin-top: 0;
+}
+li {
+  /* margin: 15px; */
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.dropMenu {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border: none;
+}
+.dropMenu span {
+  font-size: 50px;
+}
+
+.closeb {
+  display: none;
+}
+
+.header div:nth-of-type(2) a:hover {
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: auto;
+  align-items: top;
+  font-family: "Roboto";
+  z-index: 2;
+  position: sticky;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.heading {
+  font-size: 50px;
+  margin-right: 300px;
+}
+.header1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.header div:nth-of-type(1) {
+  flex: 1;
+}
+.header div:nth-of-type(2) {
+  margin: auto;
+  flex: 2;
+  justify-content: right;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  flex-wrap: wrap;
+  height: auto;
+}
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  margin-top: 1em;
+  font-family: "Roboto";
+  min-width: 250px;
+  margin-bottom: 1.5em;
+}
+.footer1 {
+  font-family: "Mrs Saint Delafield";
+  margin: auto;
+  font-size: 70px;
+}
+
+.footer2 a {
+  flex-grow: inherit;
+  padding: 5px;
+  color: white;
+}
+.footer2 a:hover {
+  font-weight: bold;
+}
+.dDown {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .navHead {
+    display: none;
+  }
+  .dDown {
+    display: inline-block;
+  }
+}
+.loginBut {
+  display: flex;
+  justify-content: left;
+  font-family: "Roboto";
+}
+.loginBut button {
+  margin: 0;
+}
+.loginBut button:hover {
+  background-color: white;
+  color: #b9cdda;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+.icons8-facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIHRyYW5zZm9ybT0iIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwyMjZ2LTIyNmgyMjZ2MjI2eiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMTMsMjguMjVjLTQ2LjcyMjQ4LDAgLTg0Ljc1LDM4LjAyNzUyIC04NC43NSw4NC43NWMwLDQ2LjcyMjQ4IDM4LjAyNzUyLDg0Ljc1IDg0Ljc1LDg0Ljc1YzQ2LjcyMjQ4LDAgODQuNzUsLTM4LjAyNzUyIDg0Ljc1LC04NC43NWMwLC00Ni43MjI0OCAtMzguMDI3NTIsLTg0Ljc1IC04NC43NSwtODQuNzV6TTExMyw0Mi4zNzVjMzkuMDg4NzYsMCA3MC42MjUsMzEuNTM2MjQgNzAuNjI1LDcwLjYyNWMwLDM1LjUwNTkxIC0yNi4wNDg3NSw2NC43MDE1MiAtNjAuMTE0MDIsNjkuNzY5Nzd2LTQ5LjE3NTQxaDIwLjExMTU4bDMuMTU4ODEsLTIwLjQyODgzaC0yMy4yNzAzOXYtMTEuMTU5MzFjMCwtOC40ODIwNiAyLjc4NjcxLC0xNi4wMTQ3NyAxMC43MTc4OSwtMTYuMDE0NzdoMTIuNzQ1NjF2LTE3LjgyMTc4Yy0yLjIzODgxLC0wLjMwMzY5IC02Ljk3Njc1LC0wLjk2NTU4IC0xNS45MzIsLTAuOTY1NThjLTE4LjcwMTUsMCAtMjkuNjU2OTgsOS44NzMyNiAtMjkuNjU2OTgsMzIuMzc0Mzl2MTMuNTg3MDRoLTE5LjIyODc3djIwLjQyODgzaDE5LjIyODc3djQ4Ljk5NjA5Yy0zMy41MjI5NiwtNS41MjkwMSAtNTkuMDEwNSwtMzQuNDY4MzEgLTU5LjAxMDUsLTY5LjU5MDQ2YzAsLTM5LjA4ODc2IDMxLjUzNjI0LC03MC42MjUgNzAuNjI1LC03MC42MjV6Ij48L3BhdGg+PC9nPjxwYXRoIGQ9IiIgZmlsbD0ibm9uZSI+PC9wYXRoPjwvZz48L2c+PC9zdmc+")
+    50% 50% no-repeat;
+  background-size: 100%;
+}
+.footer4 div {
+  display: flex;
+  flex-direction: row;
+}
+.footer4 div a {
+  transition: transform 0.5s;
+}
+.footer4 div a:hover {
+  transform: scale(1.1);
+}

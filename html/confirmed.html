@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artemis</title>
+
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="stylecCI.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;200;300;400&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:wght@100&display=swap");
+  </style>
+  <body>
+    <div class="header" style="position: sticky">
+      <div class="header1 artemis">Artemis</div>
+      <div style="font-weight: 100" class="navHead">
+        <a href="/">Main</a>
+        <a href="photoGallery">Gallery</a>
+        <a href="projects">Project</a>
+        <a href="ourTeam">Team</a>
+        <a href="shop">Shop</a>
+        <a href="contactUs">Contact</a>
+      </div>
+      <div class="dDown">
+        <button class="dropMenu">
+          <span class="material-icons menub"> menu </span>
+          <span class="material-icons closeb"> close </span>
+        </button>
+        <ul class="dropdownlist">
+          <li><a href="/">Main</a></li>
+          <li><a href="photoGallery">Gallery</a></li>
+          <li><a href="projects">Project</a></li>
+          <li><a href="ourTeam">Team</a></li>
+          <li><a href="shop">Shop</a></li>
+          <li><a href="contactUs">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="loginForm"
+      style="
+        height: 500px;
+        width: 50%;
+        text-align: center;
+        padding-top: 100px;
+        font-family: 'Oswald';
+      "
+    >
+      <h1 style="font-family: 'Oswald'">YOUR DETAILS HAVE BEEN SAVED.</h1>
+      <div style="display: flex; justify-content: center">
+        <a href="/"
+          ><button style="background-color: #2c2c2c; font-family: 'Oswald'">
+            Go back to home
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer start -->
+    <div class="footer">
+      <div class="footer1">Artemis</div>
+      <div class="footer2">
+        <p><b>Information</b></p>
+        <a href="/">Main</a>
+        <a href="photoGallery">Gallery</a>
+        <a href="projects">Project</a>
+        <a href="ourTeam">Team</a>
+        <a href="contactUs">Contact</a>
+      </div>
+      <div class="footer3">
+        <p><b>Contacts</b></p>
+        <p class="logo">
+          <span class="material-icons" style="padding: 5px; color: maroon">
+            location_on
+          </span>
+          1234 Sample Street
+          <br />Mumbai, India
+        </p>
+        <p class="logo">
+          <span class="material-icons" style="padding: 5px; color: green">
+            call
+          </span>
+          +91-7777777777
+        </p>
+        <p class="logo">
+          <span class="material-icons" style="padding: 5px; color: yellowgreen">
+            email
+          </span>
+          artemis@gmail.com
+        </p>
+      </div>
+      <div class="footer4">
+        <p><b>Social Handles</b></p>
+        <div>
+          <a href="https://www.facebook.com/"
+            ><div>
+              <img
+                src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+              /></div
+          ></a>
+          <a href="https://twitter.com/?lang=en"
+            ><div>
+              <img
+                src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+              /></div
+          ></a>
+          <a href="https://in.pinterest.com/"
+            ><div>
+              <img
+                src="data:image/png;base64,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"
+              /></div
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><div>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADWUlEQVRoge2ZS2gUWRSGv1PV6Z7EmBYfTCfgM8aIg4yKYwQlguhGDeOgRhBBXIiPzexkViKMirjQjbtZOig0EcQXKrqLb8THOD5jjNCJxk40D2PSpquuCzUSq28nVenuaYf6dnXPPYf/p26dunULfHx8fL4nZMgZ0ahpNlauU4oVSijNgaYBRPFSUGes8id11NZaaeemrXTg34hpWycV6peMKnSJwHXLCKxm50+vdHMMbXY0auaDCQAFVaadPEE0aurmaI2YjZXr8sHEFxRUmY0z1ujiWiMKWZkdSd5RSlbpYmmMqLLsyPGOErSaAvo0MUCljIRDJmsqwxQGhLPPunne+WHEIoeHaJ+RNEZSEw6Z3NpcwdRwEIB9S2wW/93AP/G+EQgcOfqupWHtzPCACYDioMH2ueMyKsoLro0UBpwpRQWuy2Qc1wpOPe2ip98euFbA0QcdmdTkCdfPyIuuDyw+0sCOeeMJBYRjDzq48Lw7G9pc4doIwL14H9vOxzKtZUS4NlJWXEBp8eC0zoRFw9tPLbgwYDBrfMiRd7u1F/tzNy8JmUwuKcBS0NzdT2ci7X5wWLg2smXOWHYt+nHQ2NlnXdTUNQEwbUyQG5sqHHklB+8zORxkT3WEmuklGJ+3q5ZSXI69Z++VVi42vfNg4RM5azdVZUXUbyzn14qvJgBMEaonjuLc+mnsXDjBc/2cGTlSM4lwSPtiRoB9S0pZPnW0p/o5MxIZNfQqFmBPdcRTfU9dyyt/3XnDsYcdJG3Fhllj2Dp3nOPLbn6kkCnhIE0u9285M3L4Vhu/X2wZuL4c66G5u58/U9yBBWVFro3kbGkdutnmGDt4M56y9Q5nGX5Lzoy8fp90jPUlFY/aE47xdE1BR86M6E452nudBo2hz3acOe5T8hPfSL7hG8k3fCP5xv/GiOu9QH2shwPX4oPGHr35eqbV1pt0xAH67dSHfXWPO7kfH/x2r4/1uJWl/60g++9eEljqumIWUXBJ/fHzslQx7dISpEUX+68QaNbF9EaUfTo7crwjSrSatEas8id1AtezI8k9Ily1ErOP6+L6rlVba1lGYHU+mBHhqpU0fmO32No5Q1bZrQzzh7trFbJSof8/kQ0EWkTJaSsx+3g6Ez4+Pj7fHx8B5Zj1Dzs5aocAAAAASUVORK5CYII="
+              /></div
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- footer ends -->
+    <script src="login.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>

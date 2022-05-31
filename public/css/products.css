@@ -1,0 +1,79 @@
+.fourImages {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bl {
+  width: 50%;
+  height: 250px;
+  position: relative;
+  text-align: center;
+}
+.bl:hover img {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.bl:hover .textInImage {
+  font-size: 75px;
+  transition: 0.3s;
+}
+.bl img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.textInImage {
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  top: 28%;
+  left: 20%;
+  font-family: "Oswald";
+}
+@media screen and (max-width: 800px) {
+  .textInImage {
+    font-size: 40px;
+    /* position: absolute; */
+  }
+}
+.collTitle {
+  text-align: center;
+  color: white;
+  font-family: "Oswald";
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.sec {
+  width: 70%;
+  margin: auto;
+  font-family: "Roboto";
+  font-size: 50px;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.pros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.onePro {
+  width: 300px;
+  margin-bottom: 100px;
+}
+.onePro img {
+  width: 100%;
+  /* height: 100%; */
+}
+.oneProText {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 30px;
+  background-color: white;
+}

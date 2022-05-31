@@ -1,0 +1,551 @@
+body {
+  background-color: #b9cdda;
+  margin: 0%;
+}
+
+.a {
+  text-decoration: none;
+  width: 70%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.artemis {
+  font-family: "Mrs Saint Delafield";
+  font-size: 70px;
+}
+/* header start */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: auto;
+  align-items: top;
+  font-family: "Roboto";
+  z-index: 2;
+  position: sticky;
+  flex-wrap: wrap;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.heading {
+  font-size: 50px;
+  margin-right: 300px;
+}
+.header1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.header div:nth-of-type(1) {
+  flex: 1;
+}
+.header div:nth-of-type(2) {
+  margin: auto;
+  flex: 2;
+  justify-content: right;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  flex-wrap: wrap;
+  height: auto;
+}
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  margin-top: 1em;
+  font-family: "Roboto";
+  min-width: 250px;
+  margin-bottom: 1.5em;
+}
+.footer1 {
+  font-family: "Mrs Saint Delafield";
+  margin: auto;
+  font-size: 70px;
+}
+
+.footer2 a {
+  flex-grow: inherit;
+  padding: 5px;
+}
+.footer2 a:hover {
+  font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+.icons8-facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCAyMjYgMjI2IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIHRyYW5zZm9ybT0iIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwyMjZ2LTIyNmgyMjZ2MjI2eiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMTMsMjguMjVjLTQ2LjcyMjQ4LDAgLTg0Ljc1LDM4LjAyNzUyIC04NC43NSw4NC43NWMwLDQ2LjcyMjQ4IDM4LjAyNzUyLDg0Ljc1IDg0Ljc1LDg0Ljc1YzQ2LjcyMjQ4LDAgODQuNzUsLTM4LjAyNzUyIDg0Ljc1LC04NC43NWMwLC00Ni43MjI0OCAtMzguMDI3NTIsLTg0Ljc1IC04NC43NSwtODQuNzV6TTExMyw0Mi4zNzVjMzkuMDg4NzYsMCA3MC42MjUsMzEuNTM2MjQgNzAuNjI1LDcwLjYyNWMwLDM1LjUwNTkxIC0yNi4wNDg3NSw2NC43MDE1MiAtNjAuMTE0MDIsNjkuNzY5Nzd2LTQ5LjE3NTQxaDIwLjExMTU4bDMuMTU4ODEsLTIwLjQyODgzaC0yMy4yNzAzOXYtMTEuMTU5MzFjMCwtOC40ODIwNiAyLjc4NjcxLC0xNi4wMTQ3NyAxMC43MTc4OSwtMTYuMDE0NzdoMTIuNzQ1NjF2LTE3LjgyMTc4Yy0yLjIzODgxLC0wLjMwMzY5IC02Ljk3Njc1LC0wLjk2NTU4IC0xNS45MzIsLTAuOTY1NThjLTE4LjcwMTUsMCAtMjkuNjU2OTgsOS44NzMyNiAtMjkuNjU2OTgsMzIuMzc0Mzl2MTMuNTg3MDRoLTE5LjIyODc3djIwLjQyODgzaDE5LjIyODc3djQ4Ljk5NjA5Yy0zMy41MjI5NiwtNS41MjkwMSAtNTkuMDEwNSwtMzQuNDY4MzEgLTU5LjAxMDUsLTY5LjU5MDQ2YzAsLTM5LjA4ODc2IDMxLjUzNjI0LC03MC42MjUgNzAuNjI1LC03MC42MjV6Ij48L3BhdGg+PC9nPjxwYXRoIGQ9IiIgZmlsbD0ibm9uZSI+PC9wYXRoPjwvZz48L2c+PC9zdmc+")
+    50% 50% no-repeat;
+  background-size: 100%;
+}
+.footer4 div {
+  display: flex;
+  flex-direction: row;
+}
+.footer4 div a {
+  transition: transform 0.5s;
+}
+.footer4 div a:hover {
+  transform: scale(1.1);
+}
+
+/* header end */
+
+/* footer start */
+.footer {
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  height: auto;
+}
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  margin-top: 1em;
+  font-family: "Roboto";
+}
+.footer1 {
+  font-family: "Mrs Saint Delafield";
+  margin: auto;
+  font-size: 70px;
+}
+.footer2 {
+  margin-bottom: 1.5em;
+}
+.footer2 a {
+  flex-grow: inherit;
+}
+
+.a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+img {
+  object-fit: cover;
+}
+.title {
+  color: white;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 70px;
+}
+.pgnum {
+  margin-top: 5px;
+  font-family: "Roboto";
+  letter-spacing: 5px;
+  font-size: 25px;
+  font-style: italic;
+}
+.TandA {
+  display: flex;
+  flex-direction: column;
+}
+.main_image img {
+  height: 700px;
+  width: 600px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_image {
+  float: right;
+}
+button {
+  float: left;
+}
+.arrows {
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: left;
+}
+.arrows div button {
+  margin-left: 0;
+  margin-right: 10px;
+}
+hr {
+  color: black;
+  width: 10px;
+}
+.frontimage {
+  float: left;
+}
+.b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.b1 {
+  width: 30%;
+  text-align: center;
+}
+.b1 img {
+  width: 95%;
+  position: relative;
+  margin-top: 2em;
+  height: 80%;
+}
+.b3 {
+  width: 30%;
+  text-align: center;
+}
+.b3 img {
+  width: 95%;
+  position: relative;
+  margin-top: 2em;
+  height: 80%;
+}
+.abou {
+  width: 40%;
+  min-width: 350px;
+}
+
+.abou p {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.h1 {
+  font-family: "Oswald";
+  color: #bdbdbd;
+  font-size: 50px;
+  margin: 0;
+  padding: 5px;
+}
+.read_more {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  transition: 0.5s;
+  margin: auto;
+  text-align: center;
+  width: 90px;
+}
+.read_more:hover {
+  background-color: #bdbdbd;
+  transform: scale(1.1);
+}
+.read_more a {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald";
+  font-weight: 300;
+}
+
+.c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  font-family: "Roboto";
+  justify-content: center;
+}
+.c1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  min-width: 350px;
+}
+.c11 {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+}
+.c111 {
+  font-size: 20px;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.c2 {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  min-width: 350px;
+}
+
+.c21 {
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+}
+.c211 {
+  font-size: 20px;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.p1 {
+  width: 70%;
+  margin: auto;
+  font-size: 50px;
+  font-family: "Roboto";
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 400;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: solid 2px white;
+}
+.d {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.d1 {
+  width: 50%;
+  position: relative;
+}
+.d1 img {
+  width: 97%;
+  height: 300px;
+}
+.d2 {
+  width: 50%;
+  text-align: right;
+}
+.d2 img {
+  width: 97%;
+  height: 300px;
+}
+
+.e {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+}
+.e1 {
+  width: 25%;
+  text-align: left;
+}
+.e1 img {
+  width: 96%;
+  height: 300px;
+}
+.e2 {
+  width: 40%;
+  text-align: center;
+}
+.e2 img {
+  width: 96%;
+  height: 300px;
+}
+.e3 {
+  width: 35%;
+  text-align: right;
+}
+.e3 img {
+  width: 96%;
+  height: 300px;
+}
+
+.inside {
+  position: absolute;
+  height: 300px;
+  width: 97%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.65;
+}
+.insideText {
+  color: white;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font-family: "Oswald";
+  font-size: 20px;
+  /* align-items: center;
+  justify-content: center; */
+  letter-spacing: 1px;
+  padding-left: 15px;
+  font-size: 50px;
+  flex-direction: column;
+}
+
+.main {
+  padding: 20px;
+  /* font-family: 'Helvetica', serif; */
+  /* box-shadow: 5px 5px 7px 5px #888888; */
+}
+
+.main h2 {
+  font-size: 40px;
+  margin-left: 130px;
+  /* font-family: 'Helvetica', serif; */
+}
+
+input {
+  /* font-family: 'Helvetica', serif; */
+  width: 100%;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-left: 130px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #767474;
+}
+
+input[type="submit"] {
+  /* font-family: 'Helvetica', serif; */
+  width: 102%;
+  background-color: #767474;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin-left: 130px;
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact_img img {
+  margin-left: 150px;
+  margin-top: 130px;
+  height: 400px;
+  width: 800px;
+}
+
+/* Contact Information Page CSS  */
+
+.info_tag {
+  margin-left: 150px;
+}
+
+.maps {
+  margin-left: 50%;
+  margin-top: 2%;
+}
+.complete {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+button {
+  color: white;
+  background-color: #b9cdda;
+  border: 3px solid white;
+}
+.head {
+  color: #bdbdbd;
+  font-family: "Oswald";
+  font-weight: lighter;
+}
+.sec {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+  .b1 {
+    width: 50%;
+  }
+  .b3 {
+    width: 50%;
+  }
+  .abou {
+    text-align: center;
+    margin: auto;
+  }
+}
+.count {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-size: 25px;
+}
+.countSec {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+
+  font-family: "Oswald";
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px 0;
+  flex-direction: column;
+}
+.cs1,
+.cs2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+}

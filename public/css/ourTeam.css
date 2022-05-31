@@ -1,0 +1,43 @@
+.photoText {
+  width: 70%;
+  margin: auto;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+.photoText p {
+  margin: 0;
+  font-family: "Roboto";
+}
+.photoText p:nth-of-type(2) {
+  color: white;
+  font-weight: bolder;
+}
+.photos {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+.photo {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.photo img {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+.names {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 25px;
+}

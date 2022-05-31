@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artemis</title>
+    <link rel="stylesheet" href="projects123.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:wght@100&display=swap");
+  </style>
+  <body>
+    {{>header}}
+
+    <div class="photoText">
+      <p>Our</p>
+      <p>Projects</p>
+    </div>
+
+    <div class="sec">
+      <img src="/Artemis/Our Projects/spacejoy-io5Tvjh7vCc-unsplash.jpg"/>
+      {{!-- <img src="" /> --}}
+      <div class="secText">
+        <section class="head">The Simplicity of Living</section>
+        <section>
+          Designed to provide comfort and a liveliness to a home while staying
+          connected to the earthly and aesthetic tones
+        </section>
+        <a href="project1">
+          <button>View More</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="sec">
+      <img src="/Artemis/Our Projects/spacejoy-q3Qd86sfaoU-unsplash.jpg" />
+      <div class="secText">
+        <section class="head">The Joy of Space</section>
+        <section>
+          Designed to provide comfort and a liveliness to a home while having
+          fun with shapes, lines and colours. Providing joy to a living and a
+          pleasure to the eyes.
+        </section>
+        <a href="project2">
+          <button>View More</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="sec">
+      {{!-- <img
+        src="./Artemis/Our Projects/xie-yujie-nick-etFRTql2qpM-unsplash.jpg"
+      /> --}}
+      <img src="/Artemis/Our Projects/xie-yujie-nick-etFRTql2qpM-unsplash.jpg"/>
+      <div class="secText">
+        <section class="head">The Sophisticated Living</section>
+        <section>
+          Designed to provide comfort and a liveliness to a home while having a
+          sense of sophistication with all your favourite things combined,
+          retaining a sense of history alongside.
+        </section>
+        <a href="project3">
+          <button>View More</button>
+        </a>
+      </div>
+    </div>
+
+    {{>footer}}
+    <script src="home.js"></script>
+  </body>
+</html>
